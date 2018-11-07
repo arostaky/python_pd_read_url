@@ -1,0 +1,8 @@
+#N canvas 137 128 1280 634 10;
+#X obj 436 252 print msg;
+#X obj 499 132 route;
+#X obj 615 29 netreceive 3001 1;
+#X obj 627 175 print raw;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 2 0 3 0;
